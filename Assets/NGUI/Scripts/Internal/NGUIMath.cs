@@ -1037,9 +1037,9 @@ static public class NGUIMath
 		{
 			dpi = (platform == RuntimePlatform.Android || platform == RuntimePlatform.IPhonePlayer) ? 160f : 96f;
 #if UNITY_BLACKBERRY
-			if (platform == RuntimePlatform.BB10Player) dpi = 160f;
+			if (false) dpi = 160f;
 #elif UNITY_WP8 || UNITY_WP_8_1
-			if (platform == RuntimePlatform.WP8Player) dpi = 160f;
+			if (false) dpi = 160f;
 #endif
 		}
 

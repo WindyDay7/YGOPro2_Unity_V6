@@ -39,7 +39,7 @@ public class Rope2 : MonoBehaviour
     public class JointPhysicsSettings
     {
         //Collider Variables
-        public PhysicMaterial physicsMaterial = null;
+        public PhysicsMaterial physicsMaterial = null;
 
         //RigidBody Variables
         public bool JointsUseGravity = true;
@@ -518,8 +518,8 @@ public class Rope2 : MonoBehaviour
 
         rigid.mass = jointPhysicsSettings.JointMass;
         rigid.centerOfMass += new Vector3(0, 0, 0.1f);
-        rigid.angularDrag = jointPhysicsSettings.JointAngularDrag;
-        rigid.drag = jointPhysicsSettings.JointDrag;
+        rigid.angularDamping = jointPhysicsSettings.JointAngularDrag;
+        rigid.linearDamping = jointPhysicsSettings.JointDrag;
 #if UNITY_3_0
         rigid.collisionDetectionMode = (CollisionDetectionMode)jointPhysicsSettings.collisionMode;
 #endif

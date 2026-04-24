@@ -9,7 +9,7 @@ public class MGBlendTable
 	int mTableSzXY;		// layer sz
 	int mTotalSz;			// all layers
 	float[] mpTable;	// the dither tables
-	Random mRandom;		// maxsdk pseudo-random number generator
+	System.Random mRandom;		// maxsdk pseudo-random number generator
 
 	int LayerIndex(int nImage)
 	{

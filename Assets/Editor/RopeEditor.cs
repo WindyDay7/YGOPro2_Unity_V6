@@ -358,7 +358,7 @@ public class RopeEditor : EditorWindow
     }
     void DrawPhysicsSettings()
     {
-            ropeObj.jointPhysicsSettings.physicsMaterial = (PhysicMaterial)EditorGUILayout.ObjectField("Physics Material", ropeObj.jointPhysicsSettings.physicsMaterial, typeof(PhysicMaterial));
+            ropeObj.jointPhysicsSettings.physicsMaterial = (PhysicsMaterial)EditorGUILayout.ObjectField("Physics Material", ropeObj.jointPhysicsSettings.physicsMaterial, typeof(PhysicsMaterial));
             ropeObj.jointPhysicsSettings.JointsUseGravity = EditorGUILayout.Toggle("Use Gravity", ropeObj.jointPhysicsSettings.JointsUseGravity);
             ropeObj.jointPhysicsSettings.JointMass = Mathf.Clamp(EditorGUILayout.FloatField("Joint Mass", ropeObj.jointPhysicsSettings.JointMass), 0, Mathf.Infinity);
             ropeObj.jointPhysicsSettings.JointDrag = Mathf.Clamp(EditorGUILayout.FloatField("Joint Drag", ropeObj.jointPhysicsSettings.JointDrag), 0, Mathf.Infinity);
