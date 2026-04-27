@@ -3,6 +3,10 @@ using System;
 using System.Collections.Generic;
 using YGOSharp.OCGWrapper.Enums;
 
+// Servant 是项目自定义的“窗口/模块基类”。
+// 你可以把它理解成：
+// - 不是场景切换，而是在单场景里切换不同功能模块
+// - 每个模块有统一的 show / hide / Update / 输入回调 接口
 public class Servant
 {
     public GameObject gameObject;
@@ -18,6 +22,7 @@ public class Servant
 
     public Servant()
     {
+        // 构造时先初始化模块，再注册一个默认的逐帧函数。
         initialize();
         AddUpdateAction(preFrameFunction);
     }
@@ -32,6 +37,7 @@ public class Servant
         if (isShowed == false)
         {
             isShowed = true;
+            // 模块显示/隐藏后，通常需要重新适配当前分辨率。
             Program.notGo(fixScreenProblem);
             Program.go(50, fixScreenProblem);
         }
@@ -39,6 +45,7 @@ public class Servant
 
     public virtual void hide()
     {
+        // hide 不只是“看不见了”，还会清理临时对象、清理延时任务和逐帧动作。
         RMSshow_clear();
         RMSshow_clearYNF();
         if (isShowed == true)
@@ -62,6 +69,7 @@ public class Servant
 
     public virtual void fixScreenProblem()
     {
+        // 当前模块显示时套用“显示布局”；隐藏时套用“隐藏布局”。
         if (isShowed)
         {
             applyShowArrangement();
@@ -74,6 +82,7 @@ public class Servant
 
     public void safeObject(GameObject o)
     {
+        // 登记一个对象，方便模块隐藏时统一销毁。
         allGameObjects.Add(o);
     }
 
@@ -173,6 +182,7 @@ public class Servant
     {
         if (isShowed)
         {
+            // 先跑通用逐帧逻辑，再分发鼠标/悬停事件。
             for (int i = 0; i < updateActions.Count; i++)
             {
                 updateActions[i]();
@@ -250,6 +260,8 @@ public class Servant
         Vector3 wantScale = default(Vector3)
         )
     {
+        // create_s 比 create 多做了一件事：
+        // 自动把新建对象登记到 allGameObjects，后续 hide() 时会统一清理。
         var re = Program.I().create(mod, position, rotation, fade, father, allParamsInWorld, wantScale);
         allGameObjects.Add(re);
         return re;
