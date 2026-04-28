@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1027
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 657.5
     height: 971
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -609,7 +609,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/transUI/prefab
+    - Assets/ArtSystem/MainMenu
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -619,28 +619,26 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/transUI/prefab
+  - Assets/ArtSystem/MainMenu
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/yuran/Study/YGO_Pro2/YGOPro2_Unity_V6
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 818.5}
+    scrollPos: {x: 0, y: 96.882935}
     m_SelectedIDs:
-    - m_Data: 59470
+    - m_Data: 64080
     m_LastClickedID:
-      m_Data: 59470
+      m_Data: 64080
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 59314
     - m_Data: 59316
     - m_Data: 59318
     - m_Data: 59320
     - m_Data: 59322
     - m_Data: 59324
     - m_Data: 59326
-    - m_Data: 59328
     - m_Data: 59330
     - m_Data: 59332
     - m_Data: 59334
@@ -652,7 +650,10 @@ MonoBehaviour:
     - m_Data: 59346
     - m_Data: 59348
     - m_Data: 59350
-    - m_Data: 59468
+    - m_Data: 59452
+    - m_Data: 59456
+    - m_Data: 59466
+    - m_Data: 59492
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -731,10 +732,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs:
-    - m_Data: 36332
-    m_LastClickedInstanceID: 36332
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: []
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -859,16 +859,37 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs:
-      - m_Data: 36332
+      m_SelectedIDs: []
       m_LastClickedID:
-        m_Data: 36332
+        m_Data: 0
       m_ExpandedIDs:
+      - m_Data: -6382
+      - m_Data: -6218
+      - m_Data: -5878
+      - m_Data: -5078
+      - m_Data: -4474
+      - m_Data: -4464
+      - m_Data: -4444
+      - m_Data: -4434
+      - m_Data: -4414
+      - m_Data: -4404
+      - m_Data: -4384
+      - m_Data: -4374
+      - m_Data: -4354
+      - m_Data: -4344
+      - m_Data: -4324
+      - m_Data: -4314
+      - m_Data: -4294
+      - m_Data: -4284
+      - m_Data: -2978
+      - m_Data: -2966
       - m_Data: -1342
+      - m_Data: 36354
+      - m_Data: 36366
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: UICanvas
+        m_OriginalName: UICanvas
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -876,10 +897,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: 0
+          m_Data: 36366
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 4}
@@ -1056,10 +1077,10 @@ MonoBehaviour:
       displayed: 1
       id: unity-transform-toolbar
       index: 0
-      contents: '{"m_Layout":2,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":2,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 2
@@ -1280,10 +1301,10 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Particles
       index: 12
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
@@ -1360,9 +1381,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0.0037878752, y: 0, z: 0}
+    m_Target: {x: 736.9125, y: 251.02664, z: -2858.5254}
     speed: 2
-    m_Value: {x: 0.0037878752, y: 0, z: 0}
+    m_Value: {x: 736.9125, y: 251.02664, z: -2858.5254}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1408,13 +1429,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.024719588, y: 0.24548677, z: 0.0062511754, w: 0.9690715}
+    m_Target: {x: -0.00051457266, y: -0.99948037, z: -0.023992613, w: 0.02189079}
     speed: 2
-    m_Value: {x: -0.024719423, y: 0.24548513, z: 0.0062511335, w: 0.969065}
+    m_Value: {x: -0.0005145685, y: -0.9994724, z: -0.023992421, w: 0.021890614}
   m_Size:
-    m_Target: 0.7653015
+    m_Target: 418.786
     speed: 2
-    m_Value: 0.7653015
+    m_Value: 418.786
   m_Ortho:
     m_Target: 0
     speed: 2
