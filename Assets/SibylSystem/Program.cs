@@ -147,6 +147,7 @@ public class Program : MonoBehaviour
     public GameObject New_winCaculatorRecord;
     public GameObject New_ocgcore_placeSelector;
     #endregion
+    public GameObject New_test_object;
 
     #region Initializement
 

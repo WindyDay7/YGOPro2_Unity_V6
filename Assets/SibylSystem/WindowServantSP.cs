@@ -99,8 +99,10 @@ public class WindowServantSP : Servant
         }
     }
 
+    // 这个函数是 Servant 的核心函数，负责创建窗口的 GameObject 实例，并把它放在正确的位置。
     public void createWindow(GameObject mod)
     {
+        // create 是 Servant 里一个封装了 Instantiate 和一些默认设置的函数，返回值是新创建的 GameObject。
         gameObject = create
             (
             mod,
@@ -110,10 +112,12 @@ public class WindowServantSP : Servant
             Program.ui_windows_2d
             );
         UIHelper.InterGameObject(gameObject);
+        // 设置窗口的位置，根据配置文件中的值进行调整，并且限制在屏幕范围内。
         Vector3 v=new Vector3();
         v.x = Mathf.Clamp(Config.getFloat("x_" + gameObject.name), -0.5f, 0.5f) * (float)Screen.width;
         v.y = Mathf.Clamp(Config.getFloat("y_" + gameObject.name), -0.5f, 0.5f) * (float)Screen.height;
         gameObject.transform.localPosition = v;
+        // 
         var panelKIller = gameObject.GetComponent<panelKIller>();
         if (panelKIller == null)
         {

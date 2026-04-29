@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6853140287307662122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7259480997869472168}
+  - component: {fileID: 6151583287533188346}
+  m_Layer: 0
+  m_Name: Game_Loader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7259480997869472168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6853140287307662122}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 748.1167, y: 229.32632, z: -2860.2297}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6151583287533188346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6853140287307662122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ef187da6853a748ad55671fa3e2b30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Program
+  main_camera: {fileID: 0}
+  face: {fileID: 0}
+  light: {fileID: 0}
+  audio: {fileID: 0}
+  zhankai: {fileID: 0}
+  mod_ui_2d: {fileID: 0}
+  mod_ui_3d: {fileID: 0}
+  mod_winExplode: {fileID: 0}
+  mod_loseExplode: {fileID: 0}
+  mod_audio_effect: {fileID: 0}
+  mod_ocgcore_card: {fileID: 0}
+  mod_ocgcore_card_cloude: {fileID: 0}
+  mod_ocgcore_card_number_shower: {fileID: 0}
+  mod_ocgcore_card_figure_line: {fileID: 0}
+  mod_ocgcore_hidden_button: {fileID: 0}
+  mod_ocgcore_coin: {fileID: 0}
+  mod_ocgcore_dice: {fileID: 0}
+  mod_simple_quad: {fileID: 0}
+  mod_simple_ngui_background_texture: {fileID: 0}
+  mod_simple_ngui_text: {fileID: 0}
+  mod_ocgcore_number: {fileID: 0}
+  mod_ocgcore_decoration_chain_selecting: {fileID: 0}
+  mod_ocgcore_decoration_card_selected: {fileID: 0}
+  mod_ocgcore_decoration_card_selecting: {fileID: 0}
+  mod_ocgcore_decoration_card_active: {fileID: 0}
+  mod_ocgcore_decoration_spsummon: {fileID: 0}
+  mod_ocgcore_decoration_thunder: {fileID: 0}
+  mod_ocgcore_decoration_trap_activated: {fileID: 0}
+  mod_ocgcore_decoration_magic_activated: {fileID: 0}
+  mod_ocgcore_decoration_magic_zhuangbei: {fileID: 0}
+  mod_ocgcore_decoration_removed: {fileID: 0}
+  mod_ocgcore_decoration_tograve: {fileID: 0}
+  mod_ocgcore_decoration_card_setted: {fileID: 0}
+  mod_ocgcore_blood: {fileID: 0}
+  mod_ocgcore_blood_screen: {fileID: 0}
+  mod_ocgcore_bs_atk_decoration: {fileID: 0}
+  mod_ocgcore_bs_atk_line_earth: {fileID: 0}
+  mod_ocgcore_bs_atk_line_water: {fileID: 0}
+  mod_ocgcore_bs_atk_line_fire: {fileID: 0}
+  mod_ocgcore_bs_atk_line_wind: {fileID: 0}
+  mod_ocgcore_bs_atk_line_dark: {fileID: 0}
+  mod_ocgcore_bs_atk_line_light: {fileID: 0}
+  mod_ocgcore_cs_chaining: {fileID: 0}
+  mod_ocgcore_cs_end: {fileID: 0}
+  mod_ocgcore_cs_bomb: {fileID: 0}
+  mod_ocgcore_cs_negated: {fileID: 0}
+  mod_ocgcore_cs_mon_earth: {fileID: 0}
+  mod_ocgcore_cs_mon_water: {fileID: 0}
+  mod_ocgcore_cs_mon_fire: {fileID: 0}
+  mod_ocgcore_cs_mon_wind: {fileID: 0}
+  mod_ocgcore_cs_mon_light: {fileID: 0}
+  mod_ocgcore_cs_mon_dark: {fileID: 0}
+  mod_ocgcore_ss_summon_earth: {fileID: 0}
+  mod_ocgcore_ss_summon_water: {fileID: 0}
+  mod_ocgcore_ss_summon_fire: {fileID: 0}
+  mod_ocgcore_ss_summon_wind: {fileID: 0}
+  mod_ocgcore_ss_summon_dark: {fileID: 0}
+  mod_ocgcore_ss_summon_light: {fileID: 0}
+  mod_ocgcore_ol_earth: {fileID: 0}
+  mod_ocgcore_ol_water: {fileID: 0}
+  mod_ocgcore_ol_fire: {fileID: 0}
+  mod_ocgcore_ol_wind: {fileID: 0}
+  mod_ocgcore_ol_dark: {fileID: 0}
+  mod_ocgcore_ol_light: {fileID: 0}
+  mod_ocgcore_ss_spsummon_normal: {fileID: 0}
+  mod_ocgcore_ss_spsummon_ronghe: {fileID: 0}
+  mod_ocgcore_ss_spsummon_tongtiao: {fileID: 0}
+  mod_ocgcore_ss_spsummon_yishi: {fileID: 0}
+  mod_ocgcore_ss_spsummon_link: {fileID: 0}
+  mod_ocgcore_ss_p_idle_effect: {fileID: 0}
+  mod_ocgcore_ss_p_sum_effect: {fileID: 0}
+  mod_ocgcore_ss_dark_hole: {fileID: 0}
+  mod_ocgcore_ss_link_mark: {fileID: 0}
+  new_ui_menu: {fileID: 0}
+  new_ui_setting: {fileID: 0}
+  new_ui_book: {fileID: 0}
+  new_ui_selectServer: {fileID: 0}
+  new_ui_gameInfo: {fileID: 0}
+  new_ui_cardDescription: {fileID: 0}
+  new_ui_search: {fileID: 0}
+  new_ui_searchDetailed: {fileID: 0}
+  new_ui_cardOnSearchList: {fileID: 0}
+  new_bar_changeSide: {fileID: 0}
+  new_bar_duel: {fileID: 0}
+  new_bar_room: {fileID: 0}
+  new_bar_editDeck: {fileID: 0}
+  new_bar_watchDuel: {fileID: 0}
+  new_bar_watchRecord: {fileID: 0}
+  new_mod_cardInDeckManager: {fileID: 0}
+  new_mod_tableInDeckManager: {fileID: 0}
+  new_ui_handShower: {fileID: 0}
+  new_ui_textMesh: {fileID: 0}
+  new_ui_superButton: {fileID: 0}
+  new_ui_superButtonTransparent: {fileID: 0}
+  new_ui_aiRoom: {fileID: 0}
+  new_ocgcore_field: {fileID: 0}
+  new_ocgcore_chainCircle: {fileID: 0}
+  new_ocgcore_wait: {fileID: 0}
+  new_mouse: {fileID: 0}
+  remaster_deckManager: {fileID: 0}
+  remaster_replayManager: {fileID: 0}
+  remaster_puzzleManager: {fileID: 0}
+  remaster_tagRoom: {fileID: 0}
+  remaster_room: {fileID: 0}
+  ES_1: {fileID: 0}
+  ES_2: {fileID: 0}
+  ES_2Force: {fileID: 0}
+  ES_3cancle: {fileID: 0}
+  ES_Single_multiple_window: {fileID: 0}
+  ES_Single_option: {fileID: 0}
+  ES_multiple_option: {fileID: 0}
+  ES_input: {fileID: 0}
+  ES_position: {fileID: 0}
+  ES_position3: {fileID: 0}
+  ES_Tp: {fileID: 0}
+  ES_Face: {fileID: 0}
+  ES_FS: {fileID: 0}
+  Pro1_CardShower: {fileID: 0}
+  Pro1_superCardShower: {fileID: 0}
+  Pro1_superCardShowerA: {fileID: 0}
+  New_arrow: {fileID: 0}
+  New_selectKuang: {fileID: 0}
+  New_chainKuang: {fileID: 0}
+  New_phase: {fileID: 0}
+  New_decker: {fileID: 0}
+  New_winCaculator: {fileID: 0}
+  New_winCaculatorRecord: {fileID: 0}
+  New_ocgcore_placeSelector: {fileID: 0}
+  New_test_object: {fileID: 0}
+  mouseParticle: {fileID: 0}
