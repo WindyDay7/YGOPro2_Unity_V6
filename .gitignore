@@ -60,5 +60,6 @@ commamd.shell
 /Windbot
 /AI.Server.exe
 .DS_Store
+.venv/
 [Ll]ogs/
 YGOPro2_Unity_V6.slnx
